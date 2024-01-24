@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(18, 18, 62);
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(154, 154, 249);
+}
+.left {
+  font-size: 1.5rem;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first > div {
+  width: 30%;
+}
+.left-section {
+  font-size: 2rem;
+}
+.right-section .sec {
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 50%;
+  /* border-right: 2px solid grey; */
+
+  /*utility*/
+}
+
+
+.right-section img:hover{
+
+}
+.textGrey {
+  color: grey;
+}
+#element {
+  color: rgb(170, 107, 228);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+main hr {
+  border: 0;
+  height: 1px;
+  background: rgba(121, 121, 254, 0.339);
+  margin: 40px 0px;
+}
+.secondSection h1 {
+  font-size: 2rem;
+}
+.box {
+  background: white;
+  height: 2px;
+  width: 84vw;
+  margin: 96px 0;
+  display: flex;
+}
+.vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 120px;
+
+}
+.image-top {
+  width: 90px;
+  position: relative;
+  bottom: 90px;
+  right: 46px;
+}
+.vertical-title {
+  position:relative;
+  text-align: center;
+  right: 18px;
+}
+.vertical-desc {
+  position: relative;
+  text-align: left;
+  font-size: 10px;
+  width: 150px;
+  right: 18px;
+  top: 10px;
+}
+footer{
+  background-color: #0f0f1f;
+  height: 230px;
+}
+.footer{
+  display: flex;
+  padding: 23px 120px;
+  justify-content: space-evenly;
+}
+.copy
+{
+  margin-top:40px ;
+  text-align: center;
+  font-size: 10px;
+}
